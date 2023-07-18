@@ -12,7 +12,7 @@ export default function Home() {
         <div className='flex flex-col text-center'>
           <h2>BIBLIOTECA DEL</h2>
           <h1 className='text-5xl'>ROCK AND ROLL</h1>
-          <p>México y Latinoamérica</p>
+          <p>en México y Latinoamérica</p>
         </div>
       </div>
 

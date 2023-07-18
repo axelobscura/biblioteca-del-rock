@@ -6,7 +6,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'Biblioteca del rock and roll en México y Latinoamérica',
-  description: 'Bienvenido a la Biblioteca del Rock, aquí encontrarás todo lo relacionado con el apasionante mundo del rock and roll en México y Latinoamérica. Descubre una amplia colección de libros, álbumes, documentales y memorabilia que celebran la rica historia y cultura de la música rock. ',
+  description: 'Bienvenido a la Biblioteca del Rock, aquí encontrarás todo lo relacionado con el apasionante mundo del rock and roll en México y Latinoamérica. Descubre una amplia colección de libros, álbumes, documentales y memorabilia que celebran la rica historia y cultura de la música rock.',
 }
 
 export default function RootLayout({
@@ -16,6 +16,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <head>
+        <link rel="icon" href="/favicon.ico" sizes="any" />
+      </head>
       <body className={inter.className}>{children}</body>
     </html>
   )
